@@ -1,0 +1,5 @@
+{
+    "updateCheckUrl": "http://localhost/versions.json",
+    "clientDownloadUrl": "http://localhost/client.jar",
+    "cacheDownloadUrl": "http://localhost/cache.zip"
+}

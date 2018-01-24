@@ -1,0 +1,19 @@
+{
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "applet2object.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Replaces all \u003Capplet> elements on a page with corresponding \u003Cobject> elements, keeping all attributes and parameters intact.",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD3VogS5JOPYXg0qZNxroG5WsC30mLRtNyuAg3U0OyPHR3IXFpxu+LqjRQfHCrlzP6PZM/8IFTwRZN9BouKRtzho81cNlpvN+NxS4a0C0fIu2FGM4SDDu+U+sZE7PcREGuJEkCKP9S4higi7XC6uHio7Z9FXGP2YAYNdEz370tTbwIDAQAB",
+   "manifest_version": 2,
+   "name": "Applet2Object",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2"
+}

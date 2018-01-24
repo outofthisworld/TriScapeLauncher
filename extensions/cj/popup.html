@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CheerpJ Applet Runner Popup</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div style="width:300px">
+      <p class="legend">
+        <img src='cheerpj-gray.png' width="16px"/><span style="width:281px;">No applet found or permissions required</span>
+      </p>
+      <p class="legend">
+        <img src='cheerpj.png' width="16px"/><span style="width:131px">Applets detected</span><img src='cheerpj-tick.png' width="16px"/><span style="width:131px">Applet is running</span>
+      </p>
+    <p class="buttons"><input type="button" value="Run Applets" id="enablebutton"></input><span></span><input type="button" value="Report bug" id="reportbutton"></input><span></span><input type="button" value="Settings" id="settingsbutton"></input></p>
+    <div style="display:none" id="report">
+      <p>The following information will be sent:</p>
+      <p><b>URL:</b> <span id="reporturl"></span></p>
+      <p><b>E-Mail:</b> <input id="reportmsg"></input></p>
+    </div>
+    </div>
+    <div style="font-size: smaller;display:none" id="settings">
+      <span style="width:240px;display:inline-block;">CheerpJ Applet Runner uses Google Analytics to track usage. No URLs or cookies are ever shared.</span><span style="width:60px;display:inline-block;"><input id="gaoptout" type="checkbox">Opt out</input></span>
+    </div>
+    <p>If your commercial, enterprise or internal Applet does not run, contact us at <a href="mailto:info@leaningtech.com" target="_blank">info@leaningtech.com</a>. We can make it work in a short time.</p>
+    <p>Do you like this extension? Give us a <a href="https://chrome.google.com/webstore/detail/cheerpj-applet-runner-bet/bbmolahhldcbngedljfadjlognfaaein/reviews" target="_blank">5 stars review</a>!</p>
+    <script src="popup.js"></script>
+  </body>
+</html>

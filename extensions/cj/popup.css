@@ -1,0 +1,18 @@
+p.legend > img
+{
+vertical-align: text-bottom;
+}
+p.legend > span
+{
+display: inline-block;
+margin-left: 3px;
+}
+p.buttons > input
+{
+width: 96px;
+}
+p.buttons > span
+{
+width: 6px;
+display: inline-block;
+}

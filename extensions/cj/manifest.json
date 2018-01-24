@@ -1,0 +1,23 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "cheerpj-gray.png",
+      "default_popup": "popup.html",
+      "default_title": "Click to run applets"
+   },
+   "content_security_policy": "script-src 'self' http://cheerpjdeploy.leaningtech.com/ 'unsafe-eval' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Runs Java applets without a JVM on any platform",
+   "icons": {
+      "128": "cheerpj.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmAmP5Qr15PiaM4azoWz9lgJ2e4Fr9/Ohot4ukfO4+Atj+WPUtdS9TeuYPgRYvCS3n/xha3K05hAD7FJl038ShnCfxKeBUEckXcSv03hiZr55PgLf0bhb3sizIUgLid3yBub9CuE92cmGNh/xlhanlbOlP2ueCMZrR7Ypjtjl0ojQ5KuhGL65fm+I1OwZDdxAbrAICFBRBWNckr/53ewEyYSfLZMLyQhHs0zXe04CBrNANZSjwGWaKy/AiH0I7pZUuQ0nHY3nxaJk2oLEVIV2odqPSg02gvqoG2vWXuAzz/qX0jtOLGf9cGYj2tj2ip49OLtYK2Sl4T5Ns1j/Jj7dWQIDAQAB",
+   "manifest_version": 2,
+   "name": "CheerpJ Applet Runner Beta",
+   "optional_permissions": [ "http://*/", "https://*/" ],
+   "permissions": [ "declarativeContent", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.18"
+}

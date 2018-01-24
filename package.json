@@ -1,0 +1,34 @@
+{
+    "name": "triscapelauncher",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": ".\\node_modules\\.bin\\electron .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "^1.7.10"
+    },
+    "window": {
+        "title": "TriScape Launcher",
+        "toolbar": true,
+        "frame": false,
+        "width": 800,
+        "height": 600,
+        "min_width": 800,
+        "min_height": 600,
+        "max_width": 800,
+        "max_height": 600
+    },
+    "webkit": {
+        "plugin": true,
+        "java": true
+    },
+    "node-remote": "localhost",
+    "dependencies": {
+        "unzip": "^0.1.11"
+    }
+}
